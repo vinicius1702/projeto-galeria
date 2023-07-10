@@ -30,7 +30,7 @@ function createModal(path, alt, figcaption, nation, link){
 }
 
 const pics = [
-    createModal("/imgs/central_park.jpg"//path
+    createModal("imgs/central_park.jpg"//path
     , "Foto do Central Park dos Estados Unidos"//alt
     , 'Central Park'//caption
     , "Estados Unidos"//nation
