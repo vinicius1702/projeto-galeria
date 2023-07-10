@@ -30,7 +30,7 @@ function createModal(path, alt, figcaption, nation, link){
 }
 
 const pics = [
-    createModal("https://img.freepik.com/fotos-gratis/new-york-city-manhattan-central-park-no-outono_649448-4127.jpg?w=996&t=st=1689021977~exp=1689022577~hmac=e40d69bc0d5c538a69de07f76e132092699c390d60d7aaf5757ca1e25735b6af"//path
+    createModal("imgs/central_park.jpg"//path
     , "Foto do Central Park dos Estados Unidos"//alt
     , 'Central Park'//caption
     , "Estados Unidos"//nation
