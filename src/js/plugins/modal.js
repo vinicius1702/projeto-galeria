@@ -10,7 +10,7 @@ function createModal(path, alt, figcaption, nation, link){
     const readyImg = $(figInside).append(image, figCaption)
 
     const divModal1 = $('<div>').addClass(['modal', 'fade']).attr('id', figcaption.replaceAll(" ", "_")).attr('tabindex', '-1').attr('aria-labelledby', figcaption.replaceAll(" ", "_") + 1).attr('aria-hidden', 'true')
-    const divModal2 = $('<div>').addClass(['modal-dialog', 'modal-dialog-centered', 'modal-lg'])
+    const divModal2 = $('<div>').addClass(['modal-dialog', 'modal-dialog-centered', 'modal-xl'])
     const divModal3 = $('<div>').addClass('modal-content')
     const modalTitle = $('<h1>').addClass('modal-title fs-5 text-center').attr('id', figcaption.replaceAll(" ", "_") + 1).append(figcaption)
     const closeButton = $('<button>').addClass('btn-close').attr('type', 'button').attr('data-bs-dismiss', 'modal').attr('aria-label', 'Close')
