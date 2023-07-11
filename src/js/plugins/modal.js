@@ -2,7 +2,7 @@ import $ from 'jquery'
 import { onLoadHtmlSuccess } from '../core/includes'
 
 function createModal(path, alt, figcaption, nation, link){
-    const div = $('<div>').addClass(['col-12', 'col-md-6', 'col-xl-3', 'mb-4', 'text-muted', 'text-center']).attr('data-bs-toggle', 'modal').attr('data-bs-target', `#${figcaption.replaceAll(" ", "_")}`)
+    const div = $('<div>').addClass(['col-12', 'col-lg-6', 'col-xl-3', 'mb-4', 'text-muted', 'text-center']).attr('data-bs-toggle', 'modal').attr('data-bs-target', `#${figcaption.replaceAll(" ", "_")}`)
     const figure = $('<figure>').addClass('figure')
     const figInside = $(div).append(figure)
     const image = $('<img>').addClass(['img-fluid', 'figure-img', 'rounded']).attr('src', path).attr('alt', alt).attr('wm-nation', nation)
